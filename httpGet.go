@@ -8,7 +8,7 @@ import (
 
 func main() {
 	// GET 호출
-	resp, err := http.Get("https://www.nave1r.com")
+	resp, err := http.Get("https://www.naver.com")
 	if err != nil {
 		panic(err)
 	}
